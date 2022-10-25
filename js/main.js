@@ -14,7 +14,7 @@ const arrayPaginas = [
 ]
 
 const urlAPI = 'https://63496f4aa59874146b200ff2.mockapi.io/api/v1/comments'
-const cantidadComentarios = 10
+const cantidadComentarios = 8
 
 /* -------------- */
 /* Carga dinámica */

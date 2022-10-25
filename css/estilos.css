@@ -102,7 +102,7 @@ header nav a:hover {
 }
 
 .titulo-secundario.primero {					/* Selección de múltiples clases, sin espacios */
-	margin-top: 0;
+	margin: 4px 0;
 }
 
 .titulo-secundario.ultimo {
@@ -467,6 +467,8 @@ footer .diseno {
 
 .contenedor-comentarios {
 	flex-basis: 40%;
+	height: fit-content;
+	min-height: 707px;
 	/* min-width: 392px; */
 	padding: 12px 16px;
 	border: 2px solid var(--color-3);
@@ -549,8 +551,7 @@ footer .diseno {
 	position: relative;
 	display: block;
 	top: 10px;
-	width: 100%;
-	/* max-width: 796px; */
+	max-width: 796px;
 }
 
 /* CONTACTO */
@@ -779,6 +780,11 @@ footer .diseno {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.logo {
+		max-width: unset;
+		width: 100%;
 	}
 
 	/* SOLUCIONES */
